@@ -1,7 +1,10 @@
 class Monster:
-  def __init__(self,name,health):
-    self.name = name
-    self.health = health
+    def __init__(self,name,health):
+        self.name = name
+        self.health = health
 
-  def Growl():
-    print("Grrrrrrrrr!!!!")
+
+class Player:
+    def __init__(self,name,health):
+        self.name = name
+        self.health = health
