@@ -5,11 +5,13 @@ from character_list import Monster,Player
 
 singleMonster = Monster("Monster", 15)
 singlePlayer = Player(input("What is your name? "), 20)
-
 attack = random.randint(1,6)
-initiative = random.randint(1,20)
+
+
 
 print("Hello %s" % singlePlayer.name)
+print("Rolling for initiative....")
+initiative = random.randint(1,20)
 
 def monsterAttack():
     print("It's now the monster's turn!")
