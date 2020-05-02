@@ -1,10 +1,10 @@
 # Adventure game
 
-A text based adventure game with combat.
+Single combat between yourself and a monster. You roll initiative once, if you win, you attack first. Then after, the monster gets to attack. It repeats this cycle until either you or the monster dies.
 
-What this will do:
 
-1. Players will be able to choose paths in a story driven game
-2. Set health for player and for monsters in encounter
-3. Dice roll for damage done by monsters and humans
-4. Option to escape and not engage in combat
+Trying to showcase:
+
+1. updating states
+2. random ints
+3. user input with name
